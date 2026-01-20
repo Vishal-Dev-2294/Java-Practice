@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="824f0521-203d-4588-9c3d-a642cb447dcc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/2 Java Basics/FirstProject/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2 Java Basics/FirstProject/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2 Java Basics/FirstProject/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2 Java Basics/FirstProject/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2 Java Basics/FirstProject/FirstProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2 Java Basics/FirstProject/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Practice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2 Java Basics/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2 Java Basics/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +29,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/vishal/Java-Practice"
+    "last_opened_file_path": "/home/vishal/Java-Practice",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
