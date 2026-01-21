@@ -4,7 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="824f0521-203d-4588-9c3d-a642cb447dcc" name="Changes" comment="" />
+    <list default="true" id="824f0521-203d-4588-9c3d-a642cb447dcc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/2 Java Basics/FIrstProgram/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2 Java Basics/FIrstProgram/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2 Java Basics/FIrstProgram/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2 Java Basics/FIrstProgram/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2 Java Basics/FIrstProgram/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2 Java Basics/FIrstProgram/FIrstProgram.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2 Java Basics/FIrstProgram/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2 Java Basics/SecondProgram/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2 Java Basics/SecondProgram/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2 Java Basics/SecondProgram/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2 Java Basics/SecondProgram/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2 Java Basics/SecondProgram/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2 Java Basics/SecondProgram/SecondProgram.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2 Java Basics/SecondProgram/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3 Data Types and Variables/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3 Data Types and Variables/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3 Data Types and Variables/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3 Data Types and Variables/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3 Data Types and Variables/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3 Data Types and Variables/3 Data Types and Variables.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3 Data Types and Variables/src/Escape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3 Data Types and Variables/src/UserInput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3 Data Types and Variables/src/Variables.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
