@@ -1,4 +1,4 @@
-public class Escape {
+class Escape {
     public static void main(String[] args) {
         System.out.println("Hello \'Vishal\' Bhai");
         System.out.println("Hello \"Vishal\" Bhai");
