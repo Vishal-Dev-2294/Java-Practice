@@ -25,4 +25,3 @@ class Prime {
         return true;
     }
 }
-
