@@ -9,11 +9,14 @@ public class Fibonacci {
     }
 
     public static void fibonacciSeries(int num) {
+        if (num < 0) return;
+        System.out.print("0 ");
+        if(num == 0) return;
+        System.out.print("1 ");
         int a = 0, b = 1;
-
-        for (int i = 1; i <= num; i++) {
-            System.out.print(a + " ");
+        while(a + b <= num){
             int next = a + b;
+            System.out.print(next + " ");
             a = b;
             b = next;
         }
