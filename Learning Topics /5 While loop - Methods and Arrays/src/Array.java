@@ -21,5 +21,13 @@ public class Array {
             System.out.println(myArr[index]);
             index++;
         }
+
+        // String ka array bana na ho to
+        String[] strArr = new String[2];
+        strArr[0] = "My String";
+        System.out.println(strArr[0]);
+
+        String[] newArr = {"first" , "second", "Third" , "Fourth" , "Fiveth"};
+        System.out.println(newArr[0] + " And Length of the whole array is " + newArr.length);
     }
 }
