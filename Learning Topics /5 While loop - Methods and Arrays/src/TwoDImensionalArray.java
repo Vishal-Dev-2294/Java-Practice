@@ -7,7 +7,19 @@ public class TwoDImensionalArray {
         myArr[1][0] = 4;
         myArr[1][1] = 5;
         myArr[1][2] = 6;
-        System.out.println(myArr[1][2]);
+
+        int index = 0;
+        while (index < myArr.length){
+            int j = 0;
+            while(j < myArr[index].length){
+                System.out.print(myArr[index][j] + " ");
+                j++;
+            }
+            System.out.println();
+            index++;
+        }
+
+        System.out.println("\n");
 
         int[][] newArr = {{1,2,3} , {4,5,6}};
 //        System.out.println(newArr[0][1]);
