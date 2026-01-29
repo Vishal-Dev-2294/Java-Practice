@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PalindromeNumber {
+class PalindromeNumber {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Welcome to Palindrome Number");
