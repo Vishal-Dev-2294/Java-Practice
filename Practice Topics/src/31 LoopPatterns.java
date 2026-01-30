@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class LoopPatterns {
+class LoopPatterns {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("We are here to print patterns\n");
