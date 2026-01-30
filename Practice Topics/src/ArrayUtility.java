@@ -15,6 +15,28 @@ public class ArrayUtility {
         return nums;
     }
 
+    public static int[][] input2DArray () {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter the size of the Row : ");
+        int rows = input.nextInt();
+        System.out.print("Enter the size of the Columm : ");
+        int columns = input.nextInt();
+        int[][] myArray = new int[rows][columns];
+        int i = 0;
+        while(i < rows){
+            int j = 0;
+            while (j < columns){
+                System.out.print("Please enter element row: " + (i+1)
+                        + " column: " + (j+1) + " :");
+                myArray[i][j] = input.nextInt();
+                j++;
+            }
+            i++;
+        }
+        return myArray;
+    }
+
+
     public static void displayArray(int[] myArray){
         int i = 0;
         while(i < myArray.length){
