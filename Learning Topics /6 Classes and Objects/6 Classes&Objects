@@ -1,0 +1,65 @@
+<-------------------> this all are very important topics <---------------------------->
+
+1. Process vs Object Oriented
+2. Instance Variables and Methods
+3. Declaring and Using Objects
+4. Class vs Object
+5. This & Static Keyword
+6. Constructors & Code Blocks
+7. Stack vs Heap Memory
+8. Primitive vs Reference Types
+9. Variable Scopes
+10.Garbage Collection & Finalize
+
+<---------------------------------Explaination---------------------------------------->
+
+1. Process vs Object Oriented :
+-> process ko hamm procedural bhi bolte hai isme hamar pura data ek function ke andar hota
+hai matlab ki hamara pura data function ke andar hi ghumega.
+-> for example :- ham ek banking system bana rhae hai to procesdural me important hai
+ki kaam kya kya karna hai matlab sirf withdraw , deposit and transfer bass procedural
+me itna hi socha jayega procedural me ham direct kaam soach te hai ki hamko kya kya
+karna hoga uss hisab se ham apna function lhikte hai.
+-> object oriented me hamara pura data objects ke andar rheta hai and hamar pura data
+classes ya to object ke ass pass ghumta hai.
+-> for example :- ham ek banking system bana rhae hai to object oriented hame ye soche
+nge phele ki isme objects kya kya hai and whai objects ke related hamara data hoga
+banking system me hamare objects honge customer , money , account.
+customer:- ye paisa deposite , withdraw , transfer karshakta hai etc.
+money :- isme ham ye lhik shakte hai ki paisa kitne baje depsoite hua ya to kitne baje
+paisa nikla pura paise ka hisab rhakega ye object.
+account :- isme ham ye lhik shakte hai ki hamara account kab create hu account ka malik
+kon hai account ke kitna transaction hua and bhot kuch.
+-> iske andar ham apne data ka bheaviour bhi change kar shakte hai.
+-> hame problem milte to shabse phele soach na hai ki isme objects konse konse hai
+ya actor kon kon hai problem question me.
+
+2. Instance Variables and Methods
+-> shamjo sirf jo bhi niche lhika raha hu
+
+class Cat
+properties :- four legs , mustache,fluffy , tail , teeth , do kan.
+methods :- lie , mew , jump , scratch.
+-> ye jo properties hai isiko ham bolte hai instance variables
+and methods bolte hai instance methods
+
+class Car
+attributes :- fuel , maxspeed.
+methods :- refule() , getfuel() , setSpeed() , getSpeed().
+-> attributes ko ham properties bhi bolte hai.
+
+3. Declaring and Using Objects
+-> Car myCar = new Car();
+-> ye uppar hamne banya hai ek object phela wala jo Car hai wo hamara naya car hai .
+-> myCar hamara refrence hai jisko ham variable bolte the.
+-> new ki madat se ham ek object bana pa rahe hai and object ka name hai Car() and
+iska ham addres dal denge myCar ke andar .
+-> jab ham koi naya object banate hai to uske shat ek address bhi create hojata hai
+jisko haam refrence ke andar pass karte hai .
+-> jab bhi hamko mycar() ka object chaiye hoga to ham myCar se lelenge simple.
+-> heap ke andar hamare object ki memory allocate hai .
+
+
+
+
+
