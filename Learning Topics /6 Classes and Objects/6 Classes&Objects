@@ -74,5 +74,6 @@ hame object ke shaat hi lhik na hoga.
 -> static hamesa class ke je ass pass rheta hai .
 -> static se jo bhi ham method bana te hai usko hame direct class ke shaat call karna hoga
 or jha ham call kar rhae honge wo method bhi static hona chaiye.
+-> main method me jo static hota hai wo isliye hota hai ki JVM object bana na nhai chhata
 
 
