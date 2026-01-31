@@ -50,7 +50,7 @@ methods :- refule() , getfuel() , setSpeed() , getSpeed().
 
 3. Declaring and Using Objects
 -> Car myCar = new Car();
--> ye uppar hamne banya hai ek object phela wala jo Car hai wo hamara naya car hai .
+-> ye uppar hamne banya hai ek object phela wala jo Car hai wo hamara class name hai .
 -> myCar hamara refrence hai jisko ham variable bolte the.
 -> new ki madat se ham ek object bana pa rahe hai and object ka name hai Car() and
 iska ham addres dal denge myCar ke andar .
@@ -58,8 +58,21 @@ iska ham addres dal denge myCar ke andar .
 jisko haam refrence ke andar pass karte hai .
 -> jab bhi hamko mycar() ka object chaiye hoga to ham myCar se lelenge simple.
 -> heap ke andar hamare object ki memory allocate hai .
+-> Car() isko ham constructor bh bolte hai.
+-> me iske behaviour ko acces kar shakta hu . se myCar.addFuel();
 
+4. Class vs Object
+-> class ka matlab hota hai sirf blueprint wo accutal me koi memory nhai leta class
+hame sirf ye bata hai ki to tum uski madat se kya bana shakte ho or kaise bana shakte ho .
+-> object ki maddat se ham wo cizz actual me banate hai.
+-> heap ke andar ham apni object ki memory ko allocate karte hai.
 
-
+5. This & Static Keyword
+->this ka matlab hota hai apna current object.
+-> static wale method ke andar hame direct instance variable ko nhai lhik shakte hai
+hame object ke shaat hi lhik na hoga.
+-> static hamesa class ke je ass pass rheta hai .
+-> static se jo bhi ham method bana te hai usko hame direct class ke shaat call karna hoga
+or jha ham call kar rhae honge wo method bhi static hona chaiye.
 
 
