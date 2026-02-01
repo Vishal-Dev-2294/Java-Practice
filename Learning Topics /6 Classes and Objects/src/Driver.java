@@ -20,10 +20,15 @@ public class Driver {
 //        mycar.drive();
 //        System.out.println(mycar.getCurrentFuelLevel());
 
-        Car bmw = new Car();
-        bmw.addFuel(6);
+        Car bmw = new Car("black");
+        Car thar = new Car();
+//        bmw.addFuel(6);
         bmw.start().drive();
-        bmw.addFuel(10);
-        bmw.getCurrentFuelLevel();
+        System.out.println(bmw.color);
+//        bmw.addFuel(10);
+
+//        Driver myDriver = new Driver();
+//        myDriver.dateOfLicense = "1-12-2024";
+//        System.out.println(Driver.minAgeForDriving);
     }
 }

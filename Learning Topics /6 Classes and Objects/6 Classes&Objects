@@ -74,6 +74,20 @@ hame object ke shaat hi lhik na hoga.
 -> static hamesa class ke je ass pass rheta hai .
 -> static se jo bhi ham method bana te hai usko hame direct class ke shaat call karna hoga
 or jha ham call kar rhae honge wo method bhi static hona chaiye.
--> main method me jo static hota hai wo isliye hota hai ki JVM object bana na nhai chhata
+-> main method me jo static hota hai wo isliye hota hai ki JVM ko object bana na nhai chhata
 -> agar hame static ko use karna hai to direct class.static() aise call karna hoga
 
+6. Constructors & Code Blocks
+-> Constructor ko hi ham builder bolte hai class or blueprint ki basis par object create
+karta hai compiler apni class me automatic constructor daldeta by default .
+-> Constructor ye metod jaisa hi hota hai par ye kuch return nhai karta kyuki
+ye ek khud hi wo object return karta hai.
+-> Constructor ka name whai hoga jo apni class ka name hoga
+-> Constructor me ham by default value pass karte hai jo jab hamara new keyword object
+banya jayega to apna Constructor automatic apni instance variabel ki bydefalut value
+set kardega ham chae to use change bhi kar shakte hai through our object.
+-> Constructor me ok bhi ham parameter pass karte hai to naya object banate shamye hamko wo parameter me
+value dena padega nhai to hamra naya object nhai banega .
+-> intialization wala code block shabse phele call hota hai Constructor se bhi pheles.
+-> code block har object create hone pe call hoga.
+-> static block sirf ek barr call hoga wo bhi jab apni class load hogi.
