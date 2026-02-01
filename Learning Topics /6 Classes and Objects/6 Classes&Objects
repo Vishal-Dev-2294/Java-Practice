@@ -119,3 +119,32 @@ store hoga and object heap me.
 
 9. Variable Scopes
 -> ye to aata hi hai revise ke liye java notes jake dhek.
+
+10.Garbage Collection & Finalize
+-> Garbage ka matlab hai aisa object jo koi use nhai kar shakta or nhai karne wala hai to usse khete
+hai garbage and garbage milke bana dete ek collection to isse bolte hai garbage collection
+-> ye jo bhi fhaltu ke objects hote hai joki koi use nhai kar shakta or use karne wala bhi hai
+to uski memory jitni allocate hui thi wo us memory ko wapis khali kardega khali karne or bolte
+hai deallocation memory wapis leli jvm ne.
+-> jvm kasie pakdega garbage object ko object ke references aise object joki stack me refrence na kar
+raha ho ya to koi point nhai ban raha ho
+-> object ka koi refrence nhai hai ya to wo unreachable hai to wo garbage collection unhe pakad ke uddhar
+hi pel dega or memory khali kardega
+-> isme genrations bhi hoti hai jaise ki young , old , permanent generation,
+-> JVM har 2 ya 3min me ek heap ma chhakar marta and dhekta hai kiska reference nhai hai
+ye konsa object use nhai hora usko uhta ke bharr fhek dega and memory deallocate kardega .
+-> ye puri ek cycle jise ham bolte hai GCC(Garbage Collection Cycle)
+-> garbage collection ka matlab hai ki heap andar jao or dheko ki konsi konsi object ka reference
+nhai milra stack wale me and kon faltu ka pada hua hai usko bhar uhta ke fhek do and memory
+deallocate kardo .
+->garbage collection heap memory ko khali karne ka kaam karta hai.
+t
+f
+t
+t
+t
+f
+f
+f
+t
+f
