@@ -91,3 +91,31 @@ value dena padega nhai to hamra naya object nhai banega .
 -> intialization wala code block shabse phele call hota hai Constructor se bhi pheles.
 -> code block har object create hone pe call hoga.
 -> static block sirf ek barr call hoga wo bhi jab apni class load hogi.
+
+7. Stack vs Heap Memory
+-> Memory hamare pass sirf do taraha ki hoti hai stack ya to heap memory.
+-> stack ka matlab hai ek ke upar ek stack me ham sirf uppar se phela hi nikal shakte hai data ye to
+variables.
+-> for example :- ham shadi me gaye wha pe thali kaise rhaki hoti hai ek ke upar ek and hamko
+shabse pheli wali hi uhtana hota hai.
+-> stack me hamare sare primitive data types and methods store hote hai and whai se excution
+hota hai shabse phele jo hoga upar se wo phele chalega .
+-> for example:- main() iske andar ek or method hai driver() name ka driver me hamne println ko call
+kiya hai to shabse phele memory me kya 1)main() 2) driver() 3) println() => to ye shab ye order me
+execute hoga shabse phele chalega main method and so on jo hamne variable define kiya hai method
+ke andar wo shab bhi excution ke time pe exceute hojayega and execution ke bad nikal jayega.
+-> execution wale part ko bolenge ham callstack.
+-> Heap ko hindi me bolte hai dherr matalb bhikra hua koi order nhai hai iska set hone ka iddhar udhar
+pada hua hota hai.
+-> Heap me hamara object allocate hota hai.
+-> insense jo bhi ham new key word se bana rahe honge wo shab hamra heap memory me store hora hai.
+-> jab ham object banate hai to hamare pass do chiz hoti hai reference and object refernce stack me
+store hoga and object heap me.
+-> ye shab stack and heap shab kuch dyanamicaly hota hai.
+->REFRENCE BY DEFAULT EK INTEGER HOTA HAI.
+
+8. Primitive vs Reference Types
+->java notes jake dhek whai shamj ayega kyu ki isme lhikne layak kuch nhai hai.
+
+9. Variable Scopes
+-> ye to aata hi hai revise ke liye java notes jake dhek.
