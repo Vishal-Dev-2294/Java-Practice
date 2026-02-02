@@ -21,4 +21,18 @@ jake dhek shakta hai.
 -> ye bhi apan ko ata hai to sirf hamare swithStatement wale class me jake ek bar revise kar shakte hai
 
 3. Loops (Do-while, For, For each)
+-> do - while loop ek barr to chalega hi bhale hi kuch bhi hojaye kyu ki condtion ham log bad me
+lhikte hai .
+-> for loop ye shab to ata hi hai
+-> forEach bhai iska jake ek barr syntax dhek lena baku ye array ke liye bhot use hota hai.
+
+4. Using break & continue
+-> break keyword khai pe bhi ajaye to shamjana ki whia pe wo loop ya to conditional statement end
+hora hai.
+-> jaha pe continue lhika hai apn ne to continue kya karega wo firse condtion pe jake check karga
+and agar condition true hoti hai to particular code ko wapis chala dega .
+-> continue skip kardega ek iteration ko kyu ki jaise condition match hoti hai to wo shabse phele i++
+pr jata hai and bolta hai ki i ko update karo.
+
+5. Recursion
 ->
