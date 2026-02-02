@@ -35,4 +35,9 @@ and agar condition true hoti hai to particular code ko wapis chala dega .
 pr jata hai and bolta hai ki i ko update karo.
 
 5. Recursion
-->
+-> Recursion ka matlab ek aisa function jo apne ko hi call kar raha ho use bolte hai ham recursion .
+-> Recursion isme ham apne hi function ko chota karke call karte rhete hai jab tak ham apne base
+tak na phoch jaye agar hamne apna base case nhai diya to infinite chalta rhaega and system crash
+ hojayega.
+-> isko ek barr dehklena kasie hora hai .
+-> isko tabhi use karte hai jab problem choti hoti jati hai and apne base case tak phauch ke band hojaye.
