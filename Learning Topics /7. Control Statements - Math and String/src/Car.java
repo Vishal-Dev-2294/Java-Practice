@@ -15,16 +15,18 @@ public class Car {
         this.company = company;
     }
 
+
     @Override
     public String toString() {
-        return "Car{" +
-                "noOfWheels=" + noOfWheels +
-                ", noOfDoors=" + noOfDoors +
-                ", maxSpeed=" + maxSpeed +
-                ", name='" + name + '\'' +
-                ", modelNumber='" + modelNumber + '\'' +
-                ", company='" + company + '\'' +
-                '}';
+        final StringBuilder sb = new StringBuilder("Car{");
+        sb.append("noOfWheels=").append(noOfWheels);
+        sb.append(", noOfDoors=").append(noOfDoors);
+        sb.append(", maxSpeed=").append(maxSpeed);
+        sb.append(", name='").append(name).append('\'');
+        sb.append(", modelNumber='").append(modelNumber).append('\'');
+        sb.append(", company='").append(company).append('\'');
+        sb.append('}');
+        return sb.toString();
     }
 
     public static void main(String[] args) {

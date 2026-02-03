@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PalindromeRecursion {
+class PalindromeRecursion {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the string to be checked : ");
