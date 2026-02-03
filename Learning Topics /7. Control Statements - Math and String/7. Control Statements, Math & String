@@ -43,5 +43,20 @@ tak na phoch jaye agar hamne apna base case nhai diya to infinite chalta rhaega 
 -> isko tabhi use karte hai jab problem choti hoti jati hai and apne base case tak phauch ke band hojaye.
 
 6. Random Numbers & Math class
--> ye wala topic apne KGMath wale me practice kiya hai whai se jake dhek le .
+-> ye wala topic apne KGMath wale me practice kiya hai whai se jake dhek le.
 
+7. Don’t Learn Syntax
+->Syntax ko yaad maat karo concept ko shamjo.
+
+8. toString Method or 9.string class
+-> toString() ye method har calss me automatic ata hai har object ka ek unique has code hota hai
+or ye toString method whai hascode return karta hai out put me .
+-> isme ham object ka description show karte hai .
+-> string wale object store hote to heap me hi hai lekin special jagaha pe jiska name string pool
+hota hai .
+-> agar me new ke shaat string banaunga to wo store ko heap me and normal string banaunga to wo
+store hoga string pool me jo ki heap ke and ek khali space hota hai.
+-> string ya kisi bhi object ki value ko compare karne ke liye hamesa equals()  ye wala
+method use hota hai.
+-> array ke andar jo ham .lenght lagate hai usko ham ek field bolte hai
+-> string ke andar jo ham .length() lagate hai usko ham bolte hai method.
