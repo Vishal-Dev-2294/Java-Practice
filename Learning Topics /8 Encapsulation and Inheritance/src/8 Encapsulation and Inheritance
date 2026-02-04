@@ -26,4 +26,17 @@ paise hai and mera phone no ye hai and mera account number ye hai bas yahi sari 
 ne ke liye hame encapsulation ka use karte hai.
 -> security ke layer upar rhaka na and implemention ko chupana isiko bolte hai encapsulation.
 
-B) Abstraction :-
+B) Abstraction :- abstraction ka matlab hai ki user ko sirf use karna shikado andar kya lhika hai
+ye jaruri nhai hai bata na usko ans usko jan ne ke bhi jarrurat nhai hai.
+for example :- hamare ghar ka switch on or off karte hi pankha ban ho jayega ya to chalu hojayega
+lekin pankha ghum kaise raha hai bizli kaise phauch rahi iss kya matlab hai user ko bas usko on off karna
+aana chaiye on off ko hi ham bolenge abstraction.
+
+C) Inheritance :-
+
+D) Polymorphism :- polymorphism ka matlab hai ki requirment ki base pe apna object bhaviour change karna
+chaiye .
+for example :- me apne bhai ke liye kida makoda hu apne mummy ke liye ek naukar hu apne papa ke liye ek
+inherit wala naukar hu hasi wala emoji hasi waka emoji.
+
+2. What is Encapsulation
