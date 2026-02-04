@@ -67,11 +67,12 @@ method use hota hai.
 store hogi na hi string pool
 ->stringBuilder and stringBuffer me ek hi diffrence wo hai ki single threaeded me stringBuilder
 jyada acha perform karta hai or stringBuffer multithreaded me acha perform karta hai .
+-> jyada concetion se bachne ke liye ham stringBuilder and StringBuffer use karte hai.
 
 11. Final keyword
 -> Final keyword ham log jaha bhi laga denge uski value final hoajayegi matalab uski value ko koi
 change nhai kar shakta
 ->final variable ko hame turant value deni padti hai kyu wo change nhai hoga and reassign bhi nhai
 hoga .
--> final variable ko ham hamesa SNAKE_CASE me lhikenge kyu turant pata chal jaye ki ye variable
+-> final variable ko ham hamesa SNAKE_CASE me lhikenge kyu ki turant pata chal jaye ki ye variable
 mera final hai or iski value bhi hai.
