@@ -10,3 +10,20 @@
 8. Object class
 9. Equals and Hash Code
 10.Nested and Inner Classes
+
+<---------------------------------Explaination---------------------------------------->
+
+1. Intro to OOPs Principle
+
+<---------- OOPs PRINCIPLES -------->
+
+A) Encapsulation :- encapsulation kheta hai ki objects me to bhot sari chize hongi to thodina ham
+duniya wale ko shab kuch baatea denge ham log utna hi batayenge jitna hamko batna chaiye baki
+shab chupa denge.
+for example :- bank me shab ka account hota hai and shabka apn apna data hota jaise ki account number
+phone number and kitne paise hai account me to ham thodina duniya ko bata denge ki hamare pass itne
+paise hai and mera phone no ye hai and mera account number ye hai bas yahi sari chiiz duniya se chupa
+ne ke liye hame encapsulation ka use karte hai.
+-> security ke layer upar rhaka na and implemention ko chupana isiko bolte hai encapsulation.
+
+B) Abstraction :-
