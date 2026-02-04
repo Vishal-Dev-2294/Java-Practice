@@ -40,3 +40,23 @@ for example :- me apne bhai ke liye kida makoda hu apne mummy ke liye ek naukar 
 inherit wala naukar hu hasi wala emoji hasi waka emoji.
 
 2. What is Encapsulation
+-> Encapsulation ka matlab hai ki in-capsule-action matlab ki ek hi class me variables or behaviours(methods)
+ko rhakna.
+-> ye data hide karne ke liye use hota sirf important information dhikana and baki shab hide kardena
+-> abstraction sirf use karna shikayega and implemention ko chupa dega .
+-> kam to dono hiding wala hi kar rahe hai ye dono me sirf ek hi differnce hai ki Encapsulation
+chizo ko ek shaat rahkta hai lekin sirf whai chiz apko dhikayega jo apke liye important hai and
+abstraction implemention ko dhikne se bachayega .
+
+3. Import & Packages
+-> do different packages me ham same name ka class rhakenge to koi dikkat nhai hai
+-> ek package ke andar agar ham same name ki so class rhakenge to error aajayegi kyu ki jab bhi
+ham ek naya object banayenge to jvm bolega ki konsi object ki bat kar rhae ho aap yaha par
+to do obeject pake name bas isiliye ham ek package ke andar do class same name ke nhai rhakte.
+-> packages ka fhayeda ye hai ki hamara name class nhai hoga kabhi bhi
+-> package ko use karne ke liye phele hamko import karna jaruri hai
+-> agar hamko sare packages chaiye ek shat to ham lhkenge import java.util.* isko jyada use nhai karte .
+-> built-in-packages are java.lang(automatacally imported in every class) , java.util , java.io .
+-> built-in-packages ka matlab hai ki jo packages hame java bana ke de raha ho.
+
+4. Access Modifiers
