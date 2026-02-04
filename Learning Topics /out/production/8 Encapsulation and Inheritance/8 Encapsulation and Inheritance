@@ -78,9 +78,3 @@ D)Protected :- same default jaisi hi hoti hai bas iski chiz koi dusra inherit ma
  dena chate hai to direct propertie ki access maat do uska ek method bana do ki wo uss
  chiz ko access kar paye.
  -> in short phele shab kuch private banye and method ke through logo ko access karaye.
- -> get ki madat se sirf wo dhek shakta hai set nhai karta shakta agar usko set karna
- hai to usko setter method bana na hoga.
- -> isko acche se shamj ke liye hamko code dhekna hoga jake dhek le ek bar bhaut easy hai.
- -> for example :- hamare bank me casier getter and setter hai agar hamko paise jama karna
- hai to uske passs jana hoga and wo apne piche jaha paise chupa ke rhaka hai uddhar se
- paise leke aaeyga fir dega.
