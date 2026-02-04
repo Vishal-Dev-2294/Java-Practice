@@ -69,7 +69,7 @@ store hogi na hi string pool
 jyada acha perform karta hai or stringBuffer multithreaded me acha perform karta hai .
 
 11. Final keyword
--> Final keyword ham log jaha bhi laga denge uski value final hoajayegi matalan uski value ko koi
+-> Final keyword ham log jaha bhi laga denge uski value final hoajayegi matalab uski value ko koi
 change nhai kar shakta
 ->final variable ko hame turant value deni padti hai kyu wo change nhai hoga and reassign bhi nhai
 hoga .
