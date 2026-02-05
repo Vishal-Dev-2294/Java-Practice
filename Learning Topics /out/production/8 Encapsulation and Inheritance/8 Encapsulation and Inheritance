@@ -78,3 +78,24 @@ D)Protected :- same default jaisi hi hoti hai bas iski chiz koi dusra inherit ma
  dena chate hai to direct propertie ki access maat do uska ek method bana do ki wo uss
  chiz ko access kar paye.
  -> in short phele shab kuch private banye and method ke through logo ko access karaye.
+ -> get ki madat se sirf wo dhek shakta hai set nhai karta shakta agar usko set karna
+ hai to usko setter method bana na hoga.
+ -> isko acche se shamj ke liye hamko code dhekna hoga jake dhek le ek bar bhaut easy hai.
+ -> for example :- hamare bank me casier getter and setter hai agar hamko paise jama karna
+ hai to uske passs jana hoga and wo apne piche jaha paise chupa ke rhaka hai uddhar se
+ paise leke aaeyga fir dega.
+
+ 6. What is Inheritance
+ -> Inheritance jha pe is a relationship hai wha inheritance lagayenge and jaha has a
+ relationship hai wha uska object create kar lenge.
+ -> realationships :- child is a parent :- motarcycle is a two wheeler inheritance lagayenge
+ -> realationships :- custome has a bankA/C :- object bana ke use karenge.
+ -> parentClass ko ham bolte hai superClass
+ -> childClass ko ham bote hai subClass
+ -> superClass se properties and methods le shakte hai jise ham bolte inherit karna subClass me.
+ -> child parent se kuch bhi le shkta hai.
+ -> extends se ham apni parent class ki properties and methods extend kar rhae hai matalab unhe
+  ham apne existing class ke andar access kar pa rahe honge inherit kar rhae hai.
+-> parent me kuch private to child usko access nhai kar payega access karne ke liye hame phele
+parent ke andar uska setter method bana na padega to uske basis pe ham apne child class
+me access kar pa rhae honge.
