@@ -86,4 +86,11 @@ D)Protected :- same default jaisi hi hoti hai bas iski chiz koi dusra inherit ma
  paise leke aaeyga fir dega.
 
  6. What is Inheritance
- ->
+ -> Inheritance jha pe is a relationship hai wha inheritance lagayenge and jaha has a
+ relationship hai wha uska object create kar lenge.
+ -> realationships :- child is a parent :- motarcycle is a two wheeler inheritance lagayenge
+ -> realationships :- custome has a bankA/C :- object bana ke use karenge.
+ -> parentClass ko ham bolte hai superClass
+ -> childClass ko ham bote hai subClass
+ -> superClass se properties and methods le shakte hai jise ham bolte inherit karna subClass me.
+
