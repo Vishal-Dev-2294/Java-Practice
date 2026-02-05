@@ -108,4 +108,46 @@ parent class - vehicle , child class - two wheeler
  child and child ki bhi ek child.
 3) hierarchical level inheritance :- vehicle and two wheeler and motorcycle one parent
  have two child
-4) multiple inheritance :-
+4) multiple inheritance :- isme ek child ke do parent nhai ho shakte shamjo ki
+A ki do child hai B and C fir baad me agar me ek D child banau and isne multiple inhertiance
+ka use kar ke B and C ki poperties ko acces kiya to B and C me to A ki properties bhi
+ hai and jab D B and C extend karega to B and C ka parent hai A to uski propeties ka
+ name same hoga B and C me to D ko pta kaise chalega ki konsi proerties lu ISKO
+ HAM DIAMOND PROBLEM BHI BOLTE HAI INTERFACES KE DORAN HAM SHIKENGE KI HAM KIASE USE KAR
+ SHAKTE HAI.
+
+ 8. Object class
+ -> Java hamko ek Object Class bana ke deta hai isme kuch classes padi hui rheti hai
+ jaise ki ek me batau to equals ye do string ki value ko compare karne ka kaam karta hai
+ agar ham koi class bana rhae hai and usme extends nai lhika hai hamne to wo class
+ automatic extend karlega object class() ko and hame bhot sari chize free me mil jaeygi
+lekin apne parent class ke pass to hoga hi kyu ki wo to kisi ko extend nhai kar raha hai
+isliye ham isko kabhi bhi use kar shakte hai.
+-> override ka matlab hai ki mujhe pata hai ki parent me hai wo already agar mujhe fhirse
+redefine karna ho to me @override lhik kar shakta hu.
+
+9. Equals and Hash Code
+-> Equals ki madat se ham string ko to comapre kar hi shakte hai par objects ko bhi
+ham equals ki madat se compare kar shake
+-> Hash Code ek maths ka formula hai jo hamri objects ki value ko final number me convert
+kardeta hai
+-> jab tak object me change na ho to tab tak mera hash code same aayega;
+-> different ke liye hashcode same aa shakta hai lekin same nhai differnet hash code
+nhai aeyaga
+-> agar me dko object ko comapare kar raha hu to dono hashcode same aana chaiye tabhi
+wo equal karke tre dega nhai to false dega.
+-> ek formula ke base pe ek integer hashCode generate karta hai.
+
+10.Nested and Inner Classes
+car - parent class and tire child class
+-> agar ham logo ne ek class ke andar dusri class define kari hai to usko bolenge nested
+class
+-> agar hame chae to nested wali class ko private bhi kar shakte hai .
+-> nested wale me koina sa bhi access modifier laga shakte hai as per use.
+-> hamne andar wali class ko static bana diya to wo apne parent class ko bhul jayega
+-> agar hamne tire ko non-static banaya hai to wo car ke object ke shaat associate hoga.
+-> agar hamne tire ko static banaya hai to wo car class ke shat associated hai
+-> nested class ko ham inner class bhi bolte hai.
+-> agar mera inner class static hai to me outer class se sirf static chizo ko hi
+access kar paunga
+-> local inner class ka matab hai ki method ke andar class bana na.

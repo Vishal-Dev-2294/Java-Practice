@@ -99,3 +99,29 @@ D)Protected :- same default jaisi hi hoti hai bas iski chiz koi dusra inherit ma
 -> parent me kuch private to child usko access nhai kar payega access karne ke liye hame phele
 parent ke andar uska setter method bana na padega to uske basis pe ham apne child class
 me access kar pa rhae honge.
+-> protected ye kheta hai ki me hu to pura defaut ke jaise par me access mere baccho ko
+bhi dedo matalb meri access child class ko bhi dedo bhale wo dusre package me kyu na ho.
+<------------------ Types of inheritance ---------------------------------->
+parent class - vehicle , child class - two wheeler
+1) simple level inheritance :- vehicle and two wheeler one parent and on child
+2) multi level inheritance :- vehicle and two wheeler and motorcycle one parent ki ek
+ child and child ki bhi ek child.
+3) hierarchical level inheritance :- vehicle and two wheeler and motorcycle one parent
+ have two child
+4) multiple inheritance :- isme ek child ke do parent nhai ho shakte shamjo ki
+A ki do child hai B and C fir baad me agar me ek D child banau and isne multiple inhertiance
+ka use kar ke B and C ki poperties ko acces kiya to B and C me to A ki properties bhi
+ hai and jab D B and C extend karega to B and C ka parent hai A to uski propeties ka
+ name same hoga B and C me to D ko pta kaise chalega ki konsi proerties lu ISKO
+ HAM DIAMOND PROBLEM BHI BOLTE HAI INTERFACES KE DORAN HAM SHIKENGE KI HAM KIASE USE KAR
+ SHAKTE HAI.
+
+ 8. Object class
+ -> Java hamko ek Object Class bana ke deta hai isme kuch classes padi hui rheti hai
+ jaise ki ek me batau to equals ye do string ki value ko compare karne ka kaam karta hai
+ agar ham koi class bana rhae hai and usme extends nai lhika hai hamne to wo class
+ automatic extend karlega object class() ko and hame bhot sari chize free me mil jaeygi
+lekin apne parent class ke pass to hoga hi kyu ki wo to kisi ko extend nhai kar raha hai
+isliye ham isko kabhi bhi use kar shakte hai.
+-> override ka matlab hai ki mujhe pata hai ki parent me hai wo already agar mujhe fhirse
+redefine karna ho to me @override lhik kar shakta hu.
