@@ -1,1 +1,18 @@
-// back to after few days
+<-------------------> this all are very important topics <---------------------------->
+
+1. What is Abstraction
+2. Abstract Keyword
+
+<---------------------------------Explaination---------------------------------------->
+
+1. What is Abstraction
+-> Abstraction ka matlab hai ki jitna tumko dhikna chaiye ham utna hi dhikayenge matlab ham implementation
+nhai batayenge bas whai chiz dhikayenge jo apko jarruri hai dhekna .
+-> implementation detail abstract out kardi gai hai matlab hamne usko kaise banaya hai wo nhai batayenge
+hamm tumko utna hi dhikayenge jitna tumko dhikna chaiye bas kyu ki utna hi jaruri hai tumko dhikna wo
+chal kaise raha hai usse kya matalab tumko .
+-> Shade simple bhasa me jo use karega usko sirf feature bataye jayenge naahi implementation .
+-> hame iss chiz ka dhyan rhakna hai ki minimum details dete hue or maximum functionalatiy kaise
+deni hai isme jyada dhyan rhakna hai .
+-> user ko sirf ye dhyan dena hai ki object mere liye kya kar shakta hai wo kaam kaise kar raha hai
+uspe user ko dhya nhai rhakna hai.
