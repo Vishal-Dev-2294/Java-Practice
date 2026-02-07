@@ -1,0 +1,5 @@
+package in.Vishal.challenge84;
+
+public interface Flyable {
+    void fly();
+}
