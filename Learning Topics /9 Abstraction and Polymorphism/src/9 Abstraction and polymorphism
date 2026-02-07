@@ -2,6 +2,7 @@
 
 1. What is Abstraction
 2. Abstract Keyword
+3. Interfaces
 
 <---------------------------------Explaination---------------------------------------->
 
@@ -51,3 +52,20 @@ shakta hu jisko mera baccha body lhikega .
 subclass ko .
 -> ye contract ban deta hai child and parent ki bich me kyu ki bina abstract method ke implemention
 ke bina wo child class nhai maana jayega.
+
+3. Interfaces
+-> Interfaces ka matlab hai ki ek aisi class jisme hame sirf absract chizze define karni ho ye ek
+ taraha se contract define kar raha hai jisme implementation hai hi nhai usko ham bolte
+ hai interfaces.
+ -> Interfaces ke andar jo bhi ham kuch define karenge uska public hona jaruri hai .
+ -> Interfaces ko agar hame as parent lena hai kisi bhi class me to implements keyword ko use karna
+ padta hai
+ -> Interfaces ye apna parent hai vechile ka and vechile child hai kab jab wo implements keyword
+ ka use karke interfaces ko inherit kare .
+ -> Interfaces ham sirf isliye banate hai ki ham chate hai ki sirf ek aise class banau jo shabki parent
+ ho and me interfaces wali class me abstract chizzo ko rhak du jo bolta hai ki bhai dheko me sirf
+ yaha pe define hua hu mujhe implement karna wale mere bache hai.
+ -> ye pane multiple inheritance ki bharpai karta hai matab ek parent ki bhot sari child ho shakte hai.
+ -> isme static methods bhi use kar shakte hai because hamko static wala method sirf interface wale
+ class ko janta hai to hame interface wale class name ke shaat mujhe call karna hoga isliye .
+ -> interface wali class me jo bhi ham lhikte hai wo bydefault public hi hoti hai except static and defaulr

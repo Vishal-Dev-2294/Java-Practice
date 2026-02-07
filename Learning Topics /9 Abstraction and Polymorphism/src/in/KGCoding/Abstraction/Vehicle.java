@@ -1,10 +1,16 @@
 package in.KGCoding.Abstraction;
 
-public abstract class Vehicle{
+public abstract class Vehicle implements Transport{
     private int noOfTires;
 
     public abstract void startCarSound(); // iska implemention mera child karega jaise ki car wala
 //                                             class isko implement karega ki ye maethod kya karega
+
+
+    @Override
+    public void getSetGo() {
+        System.out.println("Going to palace....");
+    }
 
     public Vehicle(int noOfTires){
         this.noOfTires = noOfTires;
