@@ -101,6 +101,7 @@ parent ke andar uska setter method bana na padega to uske basis pe ham apne chil
 me access kar pa rhae honge.
 -> protected ye kheta hai ki me hu to pura defaut ke jaise par me access mere baccho ko
 bhi dedo matalb meri access child class ko bhi dedo bhale wo dusre package me kyu na ho.
+-> har child class ko apne parent ke contructor ko call karna complsry hai .
 <------------------ Types of inheritance ---------------------------------->
 parent class - vehicle , child class - two wheeler
 1) simple level inheritance :- vehicle and two wheeler one parent and on child
