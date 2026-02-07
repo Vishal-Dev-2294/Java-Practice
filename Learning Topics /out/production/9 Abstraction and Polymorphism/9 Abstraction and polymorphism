@@ -46,8 +46,3 @@ compulsory hai.
 -> java hame iski madat se ye capability deta hai ki bina defination ya body ke bigar me method bana
 shakta hu jisko mera baccha body lhikega .
 -> child ke liye ye ek loan jaisa hai jisko usko chukana hi hai.
--> inshot define methods without implementation requiring subclass to provide specific functonallity
--> jitne bhi abstract method hamare parent ne define kiya hoga usko implement karna compulsory hoga
-subclass ko .
--> ye contract ban deta hai child and parent ki bich me kyu ki bina abstract method ke implemention
-ke bina wo child class nhai maana jayega.
