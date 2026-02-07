@@ -16,3 +16,17 @@ chal kaise raha hai usse kya matalab tumko .
 deni hai isme jyada dhyan rhakna hai .
 -> user ko sirf ye dhyan dena hai ki object mere liye kya kar shakta hai wo kaam kaise kar raha hai
 uspe user ko dhya nhai rhakna hai.
+-> user ko ham sirf key or value wale chizze dhikayenge and sirf whai access denge key value wale methods
+ki bahut hi bhaidya .
+
+2. Abstract Keyword
+-> Abstract ka matlab hai ki implementation ko hide karna and only features dhikana .
+-> ham chae to class ko bhi abstract bana shakte hai or chae to method ko bhi abstract bana shakte
+hai .
+-> agar ham log class ko object banaayenge to koi bhi uss class ko object nhai bana paeyga uss class
+ki properties and methods ko inherit karna padega
+-> agar hamne kisi class ko abstract bana diya to iska matlab ki wo sirf bata shakta hai ki wo chizz
+kaise banegi or jo wo chizz ko banayega usko hi bolenge ham object but abstract class bana ne ke baad
+ham uska object nhai bana pate hai isliye hame abstract class ko extend karna hai padta hai jise ham
+inherit bhi bolte hai.
+-> abstract class hi ham log isliye bante hai ki ham use inherit kar paye bass .
