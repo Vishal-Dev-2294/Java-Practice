@@ -76,3 +76,14 @@ ke bina wo child class nhai maana jayega.
  -> isme static methods bhi use kar shakte hai because hamko static wala method sirf interface wale
  class ko janta hai to hame interface wale class name ke shaat mujhe call karna hoga isliye .
  -> interface wali class me jo bhi ham lhikte hai wo bydefault public hi hoti hai except static and defaulr
+
+4. What is Polymorphism
+-> Polymorphism iske andar jo poly hai uska matlab hai multiple and morphism ka matlab hai forms(roop)
+ek hi chizz ke bhot  sare roops ho to use bola jayega Polymorphism.
+-> bhagwan vishnu hai apne Polymorphism anek roop hai unke isliye .
+-> Polymorphism ka matlab hai ki apne method ke call pe konsa object kaise behave karega .
+-> for example :- rahul hai papa ne rahul bulaya to usne aram se bola bhai ne bulaya to usne thoda
+akad me bola dost ne bulaya to usne gali se bola teacher ne bulaya to usne chup ho ke bola etc .
+-> ek method call pe alag alag object ke behaviour hone ko hi ham bolte hai polymorphism .
+-> ek hi method call ke liye alag alag situation me alag alag response denge alag alag bheaviour ho
+jayega isko bolte hai ham polymorphism.
