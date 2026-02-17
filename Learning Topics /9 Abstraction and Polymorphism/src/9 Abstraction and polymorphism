@@ -87,3 +87,12 @@ akad me bola dost ne bulaya to usne gali se bola teacher ne bulaya to usne chup 
 -> ek method call pe alag alag object ke behaviour hone ko hi ham bolte hai polymorphism .
 -> ek hi method call ke liye alag alag situation me alag alag response denge alag alag bheaviour ho
 jayega isko bolte hai ham polymorphism.
+-> ek hi object ke liye ek hi method call karo and alag alag situation me alag alag response denge.
+-> TWO TYPES OF POLYMORPHISM:-
+1) Compile time polymorphism iske do tareeke hai (1. Method overloading 2. Operator overloading)
+2) Runtime polymorphism 
+<----------------  Explaination -------------->
+1) Complietime Polymorphism :- .java file se jaise .class file banta hai tabhi ye decide karlega ki
+hamara code ka behaviour kaise hone wala hai.
+-> compile time pe hi agar hamra behaviour decide hojaye to use ham bolenge comiletime polymorphism.
+2) Runtime polymorphism :-  runtime pe agar behaviour decide ho to use bolenge runtime polumorphism .
