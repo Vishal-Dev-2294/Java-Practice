@@ -3,6 +3,13 @@
 1. What is Abstraction
 2. Abstract Keyword
 3. Interfaces
+4. What is Polymorphism
+5. References and Objects
+6. Method / Constructor Overloading
+7. Super Keyword
+8. Method / Constructor Overriding
+9. Final keyword revisited
+10.Pass by Value vs Pass by reference
 
 <---------------------------------Explaination---------------------------------------->
 
@@ -58,7 +65,7 @@ ke bina wo child class nhai maana jayega.
  taraha se contract define kar raha hai jisme implementation hai hi nhai usko ham bolte
  hai interfaces.
  -> Interfaces ke andar jo bhi ham kuch define karenge uska public hona jaruri hai .
- -> Interfaces ko agar hame as parent lena hai kisi bhi class me to implements keyword ko use karna
+ -> Interfaces ko agar hame as parent lena hai kisi bhi class me to implemeno ts keyword kuse karna
  padta hai
  -> Interfaces ye apna parent hai vechile ka and vechile child hai kab jab wo implements keyword
  ka use karke interfaces ko inherit kare .
