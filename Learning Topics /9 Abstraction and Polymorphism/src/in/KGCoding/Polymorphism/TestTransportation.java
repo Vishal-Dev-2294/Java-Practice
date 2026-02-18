@@ -12,6 +12,7 @@ public class TestTransportation {
 //      Car cCar = new Vehicle();
 //        Car cCar = (Car) new Vehicle();
 
+
     }
 
     private static void castTest(Vehicle veh){

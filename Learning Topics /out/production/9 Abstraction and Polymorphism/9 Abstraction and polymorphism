@@ -65,7 +65,7 @@ ke bina wo child class nhai maana jayega.
  taraha se contract define kar raha hai jisme implementation hai hi nhai usko ham bolte
  hai interfaces.
  -> Interfaces ke andar jo bhi ham kuch define karenge uska public hona jaruri hai .
- -> Interfaces ko agar hame as parent lena hai kisi bhi class me to implemeno ts keyword kuse karna
+ -> Interfaces ko agar hame as parent lena hai kisi bhi class me to implements keyword ka use karna
  padta hai
  -> Interfaces ye apna parent hai vechile ka and vechile child hai kab jab wo implements keyword
  ka use karke interfaces ko inherit kare .
@@ -75,7 +75,7 @@ ke bina wo child class nhai maana jayega.
  -> ye pane multiple inheritance ki bharpai karta hai matab ek parent ki bhot sari child ho shakte hai.
  -> isme static methods bhi use kar shakte hai because hamko static wala method sirf interface wale
  class ko janta hai to hame interface wale class name ke shaat mujhe call karna hoga isliye .
- -> interface wali class me jo bhi ham lhikte hai wo bydefault public hi hoti hai except static and defaulr
+ -> interface wali class me jo bhi ham lhikte hai wo by default public hi hoti hai except static and default
 
 4. What is Polymorphism
 -> Polymorphism iske andar jo poly hai uska matlab hai multiple and morphism ka matlab hai forms(roop)
@@ -106,4 +106,13 @@ change karliya .
 -> i) Upcasting :- iska matlab hai ki apne parent ke reference me apne child ka object ko rhakna .
 -> ii) DownCasting :- iska matlab hai ki apne child ke reference me parent ke object ko store karna
 jo ki galat hai or error bhi dega bas ye hamko pata hona chaiye .
+-> ExplicitCasting :- Parent p = new Child(); , Child c = (child) p;
 
+6. Method / Constructor Overloading
+-> Method Overloading ka matalab hai ki ek hi class me multiple methods with same name is called method overloading .
+-> ek hi class me agar apne same name wale methods ho usko bolte hai ham methos overloading .
+-> Method overloading hame ye kheta hai ki aap same name ke methods bana lo but usme parameters
+me thoda diffrence rhakna kyu ki JVM bolta hai ki me tumhare number of arguments dhek ke
+phechanunga ki tum konse methods ki baaat kar rhae ho .
+-> ye shab chochne ka kaam compiler karta hai apne runtime pe .
+-> ye jo bhi hamne upar kiya hai usko hi ham bolte hai compile time polymorphism .

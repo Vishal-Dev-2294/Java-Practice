@@ -1,6 +1,6 @@
 package in.KGCoding.Polymorphism;
 
-class Plane implements Vehicle {
+class Plane extends Vehicle {
 
     @Override
     public void start() {
