@@ -133,3 +133,24 @@ karna chate hai child class me to ham override karte hai .
 override ka use karte hai .
 -> @Override ya to @ khai pe bhi lhika ajaye to iska matlab hota hai ki compiler ko ek hint mill
 raha hai .
+-> override ka matlab hai ki jo method parent ne define kiya hai usko hamko agar redefine karna
+hai to ham @Overrid ka use karte hai
+-> isiko ham bolte hai runtime polymorphism kyu ki runtime pe hi apna refrence check hota hai
+and usme sirf object call honge isiliye isko ham bolte hai runtime polymorphism .
+
+--> ek name ke agar mujhe multiple method bana na hai to ham usko bolenge overloading
+--> agar mujhe parent class ke method ko child class me redefine karna hai to ham use
+bolenge oveerriding
+
+-> Constructor overriding same hota hai apne method overriding jaisa bass .
+
+9. Final keyword revisited
+-> agar hame kisi variable ko final banaya to wo contant ban jata hai .
+->  agar ham log parent class ke method ko final bana dete hia to uske child uss method ko nahi
+redefine kar shakte hai or na hi overriding kar shakte hai .
+-> agar class ko final define kardiya to uss class ko koi bhi inherit nhai kar shakta .
+
+10.Pass by Value vs Pass by reference
+-> pass by value ka matlab hai ki agar ham method me primitive data type ko bhej rhae hai to wo ham
+uska copy bana ke bhej rhae hai na hi actual value .
+-> cup = empty fillCup=bhara hua

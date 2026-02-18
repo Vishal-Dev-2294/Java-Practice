@@ -149,3 +149,8 @@ bolenge oveerriding
 ->  agar ham log parent class ke method ko final bana dete hia to uske child uss method ko nahi
 redefine kar shakte hai or na hi overriding kar shakte hai .
 -> agar class ko final define kardiya to uss class ko koi bhi inherit nhai kar shakta .
+
+10.Pass by Value vs Pass by reference
+-> pass by value ka matlab hai ki agar ham method me primitive data type ko bhej rhae hai to wo ham
+uska copy bana ke bhej rhae hai na hi actual value .
+-> cup = empty fillCup=bhara hua
