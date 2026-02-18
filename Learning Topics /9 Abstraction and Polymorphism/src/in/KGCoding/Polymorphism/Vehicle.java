@@ -12,9 +12,11 @@ public abstract class Vehicle {
         this.noOfTires = noOfTires;
     }
 
-    public int getNoOfTires(){
-        return this.getNoOfTires();
-    }
+//    public int getNoOfTires(){
+//        return this.getNoOfTires();
+//    }
 
-    public abstract void start();
+    public void start(){
+        System.out.println("Vehcile is starting...");
+    }
 }
