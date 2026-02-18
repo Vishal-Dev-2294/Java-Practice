@@ -97,7 +97,11 @@ hamara code ka behaviour kaise hone wala hai.
 -> compile time pe hi agar hamra behaviour decide hojaye to use ham bolenge comiletime polymorphism.
 -> Complietime Polymorphism ye hamlog achieve kar shakte hai through method overloading
 i) Operator Overloading :- iska matlab hai ki operator hamara same rhaega lekin areguments ki base
-pe behaviour change hoga (5 + 5 = 10 , "5" + "5" = 55) accoring to arguments isne apna behaviour
+pe behaviour change hoga (5 + 5 = 10 , "5" + "5" = 55) according to arguments isne apna behaviour
 change karliya .
 2) Runtime polymorphism :-  runtime pe agar behaviour decide ho to use bolenge runtime poluymorphism .
 -> Runtime polymorphism isko ham achive kar shakte hai through method overridding
+
+5. References and Objects
+-> i) Downcasting :- iska matlab hai ki apne parent ke reference me apne child ka object ko rhakna .
+
