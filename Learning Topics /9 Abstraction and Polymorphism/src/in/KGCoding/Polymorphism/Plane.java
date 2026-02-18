@@ -1,4 +1,9 @@
 package in.KGCoding.Polymorphism;
 
-public class Plane extends Car {
+class Plane implements Vehicle {
+
+    @Override
+    public void start() {
+        System.out.println("Plane is flying");
+    }
 }

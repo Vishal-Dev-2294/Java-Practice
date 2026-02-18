@@ -103,5 +103,8 @@ change karliya .
 -> Runtime polymorphism isko ham achive kar shakte hai through method overridding
 
 5. References and Objects
--> i) Downcasting :- iska matlab hai ki apne parent ke reference me apne child ka object ko rhakna .
+-> i) Upcasting :- iska matlab hai ki apne parent ke reference me apne child ka object ko rhakna .
+-> ii) DownCasting :- iska matlab hai ki apne child ke reference me parent ke object ko store karna
+jo ki galat hai or error bhi dega bas ye hamko pata hona chaiye .
+-> ExplicitCasting :- Parent p = new Child(); , Child c = (child) p;
 

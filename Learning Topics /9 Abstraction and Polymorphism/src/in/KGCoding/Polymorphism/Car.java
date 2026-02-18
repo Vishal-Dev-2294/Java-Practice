@@ -1,5 +1,12 @@
 package in.KGCoding.Polymorphism;
 
-public class Car extends Vehicle {
+class Car implements Vehicle {
+    public int noOfDoors(){
+        return 5;
+    }
 
+    @Override
+    public void start() {
+        System.out.println("Car is Going");
+    }
 }
