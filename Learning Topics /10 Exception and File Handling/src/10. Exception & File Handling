@@ -1,0 +1,32 @@
+<-------------------> this all are very important topics <---------------------------->
+
+1. What is an Exception
+2. Try-Catch
+3. Types of Exception
+4. Throw and Throws
+5. Finally Block
+6. Custom Exceptions
+7. FileWriter class
+8. FileReader class
+
+<---------------------------------Explaination---------------------------------------->
+
+1. What is an Exception
+-> Exception ka matlab hai disruptive event matlab kuch galat hojana code me and wo galti kem karan
+hamra code ye bolta hai ki ye se aab aage nhai bhada jaeyga flow ko inpterupt ho chuka hai
+isko handle karo or system ko batao ki iss error ko aise handel karo and hamra programm ka flow
+tode na chalne de ...
+-> uppar wala jo error ko handel kar raha hai usi ko ham bolte hai exception handling
+-> Exception ek taraha ka object hi hai jaise apan ne dheka ta ki array ke andar hamra error
+aaya tha to terminal me error aaya tha with name of array index of bound exception in it throw
+kiya tha java me exception hamrai galti pe is error me hamko exception ki type batai jati hai
+kya type tha and bhot kuch .
+-> chart ke andar throwable hai usme do chiz hai ERROR and EXCEPTION
+-> ERROR ye apni galti ke karan nhai hota ye hota system ke galti ke karan jaise memory full
+hojana and system ke kuch issue ke karan se hota hai isme hamara koi haat nhai hota .
+-> EXCEPTION ye apni galti ke karan hota hai jaise khai pe error aana ye hamne galat logic
+lhik diya ho uske wjaha iske do type hai runtime exception and compile time exception .
+
+2. Try-Catch
+-> Try-Catch iska matlab hai ki hamko pata hai ki esme error ane wali to wo error handel kaise karna
+hai wo try-catch ki madat se handel karenge jise ham bolte hai exception handling .
