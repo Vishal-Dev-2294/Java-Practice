@@ -154,3 +154,7 @@ redefine kar shakte hai or na hi overriding kar shakte hai .
 -> pass by value ka matlab hai ki agar ham method me primitive data type ko bhej rhae hai to wo ham
 uska copy bana ke bhej rhae hai na hi actual value .
 -> cup = empty fillCup=bhara hua
+-> passByReference me ham agar kuch arguments bhej rahe hai to wo actual me reference ki value
+change hoga na hi uski copy banai jayegi .
+-> new se agar ham kuch bhi banate hai and usme change karte hai uske reference me hi actual
+change hoga .
