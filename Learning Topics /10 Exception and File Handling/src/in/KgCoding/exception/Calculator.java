@@ -10,10 +10,14 @@ public class Calculator {
         System.out.print("Enter the second number : ");
         int second = input.nextInt();
         try{
-            int result = first / second;
-            System.out.printf("result is %d" , result);
+            int[] a = new int[5];
+            System.out.printf("result is %d" , a[6]);
+            a[6] = first / second;
+            System.out.printf("result is %d" , a[6]);
         } catch (ArithmeticException e) {
             System.out.printf("%s , enter valid values " , e.getMessage());
+        }  catch (ArrayIndexOutOfBoundsException e) {
+            System.out.printf(e.getMessage());
         }
     }
 }

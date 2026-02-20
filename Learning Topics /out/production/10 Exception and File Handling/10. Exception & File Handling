@@ -35,3 +35,5 @@ exception aajaye to java direct exception throw na kare isliye ham catch ka use 
 hmatcException exception){sout("gadbad hogai")} iska matlab hai ki agar mera try ka code me exception
 aaya to me catch me jo bhi lhikunga wo chal jaeyga and catch ke andar ham aapna exception ko
 handle kar rhae honge .
+-> agar hamko lagta hai ki hamra code me exception aa shakti to wo particular code ham try ke
+andar lhikenge and catch me usko handel karlenge .
