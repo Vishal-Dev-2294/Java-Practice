@@ -37,3 +37,11 @@ aaya to me catch me jo bhi lhikunga wo chal jaeyga and catch ke andar ham aapna 
 handle kar rhae honge .
 -> agar hamko lagta hai ki hamra code me exception aa shakti to wo particular code ham try ke
 andar lhikenge and catch me usko handel karlenge .
+
+3. Types of Exception
+-> i) User defined exception ii) built in exception
+<-------- explaination -------->
+i) User defined exception :- ye exception ham banate hai .
+ii) built in exception
+-> ye wo exception hai jo java provide karta hai phele se hi phele se hi built hoke aai hui exception
+by java .
