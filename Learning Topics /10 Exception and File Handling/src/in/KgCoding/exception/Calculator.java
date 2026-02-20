@@ -18,6 +18,8 @@ public class Calculator {
             System.out.printf("%s , enter valid values " , e.getMessage());
         }  catch (ArrayIndexOutOfBoundsException e) {
             System.out.printf(e.getMessage());
+        } catch (Throwable th){
+            System.out.println("bhai kuch to galat kiya hai ");
         }
     }
 }
