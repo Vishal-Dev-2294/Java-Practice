@@ -46,5 +46,9 @@ ii) built in exception
 -> ye wo exception hai jo java provide karta hai phele se hi phele se hi built hoke aai hui exception
 by java .
 i) checked exception :- ye exception handel karna ya to declare karna  complusory hai
+-> ye ham log try catch ki madat se kar shakte hai.
 ii) unchecked exception :- ye exception handel karna jarruri nhai because ye java hamko direct
 throw kardega bina hamare handel kiye .
+
+4. Throw and Throws
+->
