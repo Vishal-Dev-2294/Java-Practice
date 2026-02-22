@@ -37,3 +37,41 @@ aaya to me catch me jo bhi lhikunga wo chal jaeyga and catch ke andar ham aapna 
 handle kar rhae honge .
 -> agar hamko lagta hai ki hamra code me exception aa shakti to wo particular code ham try ke
 andar lhikenge and catch me usko handel karlenge .
+
+3. Types of Exception
+-> i) User defined exception ii) built in exception
+<-------- explaination -------->
+i) User defined exception :- ye exception ham banate hai .
+ii) built in exception
+-> ye wo exception hai jo java provide karta hai phele se hi phele se hi built hoke aai hui exception
+by java .
+i) checked exception :- ye exception handel karna ya to declare karna  complusory hai
+-> ye ham log try catch ki madat se kar shakte hai.
+-> ya to declare kar shake hai throws ki madat se .
+-> throws ham log kisi ke shaat bhi declare kar shakte hai chaye wo checked ho ya unchecked .
+ii) unchecked exception :- ye exception handel karna jarruri nhai because ye java hamko direct
+throw kardega bina hamare handel kiye .
+
+4. Throw and Throws
+--> Throws :-  ye apne method ke name ke shat use hoga .
+-> ye apne method ke aage lhik te hai ye bata ta hai ki ye method ye name ka exception
+de shakta hai ya to iss name exception aa shakti hai .
+-> isme hamko try catch ka use nhai karna padta kyu ki ye phele hi bata deta hai ki exception
+aa shakti hai .
+-> ye sirf ye bata ta hai ki iske andar se exception originate hi shakti hai .
+-> baki ka notes ke andar point hai wo read karle .
+-> ye apne try catch se bachne ke liye use hota hai .
+--> Throw :- ye apne new key word ke shat aayega matlab ki new shaat ayega .
+-> agar ham chhate hai ki uss exception ke baad hamara code chale hi na to ham throws or throw ka use
+karenge .
+-> throws hame bata hai ki iss type ka exception aaa shakta hai ye thow se ham uss exception
+ko actual me throw kardenge
+-> Calculator wale me jake dhek usme bhaut ache se shmajaya hai stack trease .
+-> thore ke andar ham jo new se lhik te hai usko bolte hai ki ham exception ka object throw
+kar rhae hai .
+-> iska difference bata gya hai notes me wo jake dhek le shamaj aajayega
+
+5. Finally Block
+-> ye try catch ke shaat lhika jata hai ye agar ham log ne lhik diya to iska matlab hai ki
+finally block chalega hi chalega bhale hi kitni exception aai ho ya na aayi ho ye chalega
+to chalega hi .

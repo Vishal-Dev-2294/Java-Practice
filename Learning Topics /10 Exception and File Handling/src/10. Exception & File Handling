@@ -53,7 +53,7 @@ ii) unchecked exception :- ye exception handel karna jarruri nhai because ye jav
 throw kardega bina hamare handel kiye .
 
 4. Throw and Throws
--> Throws :-  ye apne method ke name ke shat use hoga .
+--> Throws :-  ye apne method ke name ke shat use hoga .
 -> ye apne method ke aage lhik te hai ye bata ta hai ki ye method ye name ka exception
 de shakta hai ya to iss name exception aa shakti hai .
 -> isme hamko try catch ka use nhai karna padta kyu ki ye phele hi bata deta hai ki exception
@@ -61,3 +61,20 @@ aa shakti hai .
 -> ye sirf ye bata ta hai ki iske andar se exception originate hi shakti hai .
 -> baki ka notes ke andar point hai wo read karle .
 -> ye apne try catch se bachne ke liye use hota hai .
+--> Throw :- ye apne new key word ke shat aayega matlab ki new shaat ayega .
+-> agar ham chhate hai ki uss exception ke baad hamara code chale hi na to ham throws or throw ka use
+karenge .
+-> throws hame bata hai ki iss type ka exception aaa shakta hai ye thow se ham uss exception
+ko actual me throw kardenge
+-> Calculator wale me jake dhek usme bhaut ache se shmajaya hai stack trease .
+-> thore ke andar ham jo new se lhik te hai usko bolte hai ki ham exception ka object throw
+kar rhae hai .
+-> iska difference bata gya hai notes me wo jake dhek le shamaj aajayega
+
+5. Finally Block
+-> ye try catch ke shaat lhika jata hai ye agar ham log ne lhik diya to iska matlab hai ki
+finally block chalega hi chalega bhale hi kitni exception aai ho ya na aayi ho ye chalega
+to chalega hi .
+
+6. Custom Exceptions
+-> ye wala topic notes me dhek le .
