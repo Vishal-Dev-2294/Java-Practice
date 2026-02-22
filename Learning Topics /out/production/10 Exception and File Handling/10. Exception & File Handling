@@ -75,3 +75,22 @@ kar rhae hai .
 -> ye try catch ke shaat lhika jata hai ye agar ham log ne lhik diya to iska matlab hai ki
 finally block chalega hi chalega bhale hi kitni exception aai ho ya na aayi ho ye chalega
 to chalega hi .
+
+6. Custom Exceptions
+-> ye wala topic notes me dhek le .
+
+7. FileWriter class
+-> try( isme ham jo bhi lhik rahe honge usse ham bolenge try with resource ){
+() -> iss wale bracket ke andar jo bhi ham lhik rhae honge usee bolenge resource try ke shaat
+lhik rhae hai isliye ham isko bol rhae hai try with resouce .
+}
+-> reosource ka fhayeda hai ki hamko file me lhikne ke baad usko close karne ki jarrurat nhai padti
+resource apne aap se band kardega isliye ham reousce ka use karte hai .
+-> file writer ek object jaise ki hamra scanner ek object hai waise same filewriter bhi hamara ek
+object hai jo file me lhik ke kaam aata hai scanner ham system.in lhik te bass us ke badle hame
+yaha pe filename lhik na hota hai phele file ko define karna padta hai object bana ne se phele
+and joki ye ek check exception hai isliye hamko isko handel karna padega kyu ki agar kisi ne
+file hi naa di hoto isliye or hame catch me ioexception ko handel karna padega .
+
+8. FileReader class
+->
