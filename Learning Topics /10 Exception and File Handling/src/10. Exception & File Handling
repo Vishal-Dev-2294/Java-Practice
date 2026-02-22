@@ -47,8 +47,17 @@ ii) built in exception
 by java .
 i) checked exception :- ye exception handel karna ya to declare karna  complusory hai
 -> ye ham log try catch ki madat se kar shakte hai.
+-> ya to declare kar shake hai throws ki madat se .
+-> throws ham log kisi ke shaat bhi declare kar shakte hai chaye wo checked ho ya unchecked .
 ii) unchecked exception :- ye exception handel karna jarruri nhai because ye java hamko direct
 throw kardega bina hamare handel kiye .
 
 4. Throw and Throws
-->
+-> Throws :-  ye apne method ke name ke shat use hoga .
+-> ye apne method ke aage lhik te hai ye bata ta hai ki ye method ye name ka exception
+de shakta hai ya to iss name exception aa shakti hai .
+-> isme hamko try catch ka use nhai karna padta kyu ki ye phele hi bata deta hai ki exception
+aa shakti hai .
+-> ye sirf ye bata ta hai ki iske andar se exception originate hi shakti hai .
+-> baki ka notes ke andar point hai wo read karle .
+-> ye apne try catch se bachne ke liye use hota hai .
