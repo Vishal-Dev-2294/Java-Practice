@@ -93,4 +93,5 @@ and joki ye ek check exception hai isliye hamko isko handel karna padega kyu ki 
 file hi naa di hoto isliye or hame catch me ioexception ko handel karna padega .
 
 8. FileReader class
-->
+-> same as filewirter but isme hamko file ko read karne ke liye loop ka use karna hota hai inside
+the try block .
