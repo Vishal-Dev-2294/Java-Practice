@@ -1,10 +1,20 @@
 <-------------------> this all are very very important topics <---------------------------->
+<-------------------> shabse jyada use hone wale topics <---------------------------->
 
 1. Variable Arguments
 2. Wrapper Classes & Autoboxing
 3. Collections Library
 4. List Interface
 5. Queue Interface
-
+6. Set Interface
+7. Collections Class
+8. Map Interface
+9. Enums
+10.Generics & Diamond Operators
 
 <---------------------------------Explaination---------------------------------------->
+
+1. Variable Arguments
+-> iske andar ham multiple arguments bhej shakte hai ek shaat and ek method shabko accept karega apne
+parameters me and shab ko ham log ek shaat pluse karke print kar shakte hai .
+->
