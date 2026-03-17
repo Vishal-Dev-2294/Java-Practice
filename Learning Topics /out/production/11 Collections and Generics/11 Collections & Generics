@@ -73,5 +73,8 @@ allow nhai karta
 -> ye ek unorderd collection hai jo order me elements nhai rhakta hai isliye hame log iska
 index se value nhai nikal shakte hai
 
-
+7. Collections Class
+-> collection or collections me diffrence hai ki collection ek interface tha jo top pe rheta tha and
+collections ye ek Utility class jo hamare bhot sare kaam karne me help karega
+->
 
