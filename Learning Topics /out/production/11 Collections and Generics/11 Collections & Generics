@@ -17,5 +17,61 @@
 1. Variable Arguments
 -> iske andar ham multiple arguments bhej shakte hai ek shaat and ek method shabko accept karega apne
 parameters me and shab ko ham log ek shaat pluse karke print kar shakte hai .
+-> ... ye wala jo sign hai isko ham bolte hai ellipsis.
 -> ye ham log isliye use karte hai kyu ki hamko method overloading use na karni pade alag alag arguments ke
 liye .
+-> hamlog agar call karte shamy kuch pass bhi nhai kiye tobhi ye code chal jayega because ye ek array hai
+and apne code isliye bhi chal jayega bhi arguments ke kyu ki ye indices ko gin ta hai na hi value
+isliye hamko ek parameter pass kardena ka and piche multiple argss lhik dene ka simple.
+
+2. Wrapper Classes & Autoboxing
+-> notes me acche se shamj aayega dhek jake
+-> wrapper classs ka matlab ka hai ki ham chaye to primiive data type ka object bhi bana shakte hai
+-> wrapper class ko ham isiliye shik rhae hai kyu ki collection me ham diect primitive data type ko
+use nhai kar shakte hai collection me ham sirf object use kar shakte hai.
+-> notes me dhek le jake baki ka
+
+3. Collections Library
+-> Do type ka collections library hote hai
+1) collecton :- iske bhot sare childs hai
+2) map :- iske bhi bhot sare childs hai
+-> ye dono hi collect library ka part hai
+-> notes ke andar jo pille color me lhika hai usko ham interface class hai and green wale inki implemention
+hai
+-> collection word ka matlab hai ki similar type of elements ko ek chiz me rhkna jise ham bolta hai
+collection
+-> collection wo hai jo add , remove , clear adn size ye shab kuch kar shakta hai and size bata shakta
+hai usse ham bolenge collection
+-> list bola ta hai ki me kuch method dunga or collection mera parent hai to uske properties
+to mere pass hogi hi so tu agar mere methods + collection ki properties ka use karta hai to tu
+list use kar raha hai
+-> list ek order collection me hota hai and wo duplicate items bhi contain kar shak ta hai
+-> set ek collection bass ye duplicate elements ko nhai rahk ta apne pass ye ek unique element
+mangta hai
+-> for exampe:- agar set hai ek apple hai to dusra apple nhai aa shakta hai.
+-> Queue bhi ek collectio ka hisssa hai jo hi elements ko hold karta hai in fifo(first in first out)
+-> map ek true collection nhai hai part hai collection framework ka or ye key value ke pair me
+chize store karta hai with unique key value same hoto chalega but key ka name alag alag chaiye
+
+4. List Interface
+-> ye apne elements ko ek order form me rhakta hai.
+-> allows duplicate elments
+-> elements jo ham acces kar shakte hai use integer index se
+-> insertion order matlab ki jis order me hamne element dala use order me wo hame wapas karega
+elements
+->isme hamko Array list ka size define nhai karna padta matalab jina chahe utna element dal shakte hia
+-> ye shab shab compile time pe hi chal jate hai
+
+5. Queue Interface
+-> isme do chize hoti hai nptes ke andar iska image hai wha pe jake dhek ek hoga tail or ek hoga head
+-> tail ke andar se element jaeyga and head se niklega ek ek karke  to iske madat se ham ordering mantain
+kar shakte hai
+
+6. Set Interface
+-> unique element ko rhakne ke liye ham set ka use karte hai kyu ki ye duplicate elements ko
+allow nhai karta
+-> ye ek unorderd collection hai jo order me elements nhai rhakta hai isliye hame log iska
+index se value nhai nikal shakte hai
+
+
+
