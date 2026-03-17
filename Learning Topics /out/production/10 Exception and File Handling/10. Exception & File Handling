@@ -64,7 +64,7 @@ aa shakti hai .
 --> Throw :- ye apne new key word ke shat aayega matlab ki new shaat ayega .
 -> agar ham chhate hai ki uss exception ke baad hamara code chale hi na to ham throws or throw ka use
 karenge .
--> throws hame bata hai ki iss type ka exception aaa shakta hai ye thow se ham uss exception
+-> throws hame bata hai ki iss type ka exception aaa shakta hai ye throw se ham uss exception
 ko actual me throw kardenge
 -> Calculator wale me jake dhek usme bhaut ache se shmajaya hai stack trease .
 -> thore ke andar ham jo new se lhik te hai usko bolte hai ki ham exception ka object throw
@@ -93,4 +93,5 @@ and joki ye ek check exception hai isliye hamko isko handel karna padega kyu ki 
 file hi naa di hoto isliye or hame catch me ioexception ko handel karna padega .
 
 8. FileReader class
-->
+-> same as filewirter but isme hamko file ko read karne ke liye loop ka use karna hota hai inside
+the try block .

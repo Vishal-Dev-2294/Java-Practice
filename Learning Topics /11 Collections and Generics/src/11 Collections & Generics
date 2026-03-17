@@ -17,8 +17,12 @@
 1. Variable Arguments
 -> iske andar ham multiple arguments bhej shakte hai ek shaat and ek method shabko accept karega apne
 parameters me and shab ko ham log ek shaat pluse karke print kar shakte hai .
+-> ... ye wala jo sign hai isko ham bolte hai ellipsis.
 -> ye ham log isliye use karte hai kyu ki hamko method overloading use na karni pade alag alag arguments ke
 liye .
 -> hamlog agar call karte shamy kuch pass bhi nhai kiye tobhi ye code chal jayega because ye ek array hai
 and apne code isliye bhi chal jayega bhi arguments ke kyu ki ye indices ko gin ta hai na hi value
 isliye hamko ek parameter pass kardena ka and piche multiple argss lhik dene ka simple.
+
+2. Wrapper Classes & Autoboxing
+->

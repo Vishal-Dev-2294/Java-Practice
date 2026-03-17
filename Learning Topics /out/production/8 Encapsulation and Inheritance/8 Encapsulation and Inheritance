@@ -89,18 +89,19 @@ D)Protected :- same default jaisi hi hoti hai bas iski chiz koi dusra inherit ma
  -> Inheritance jha pe is a relationship hai wha inheritance lagayenge and jaha has a
  relationship hai wha uska object create kar lenge.
  -> realationships :- child is a parent :- motarcycle is a two wheeler inheritance lagayenge
- -> realationships :- custome has a bankA/C :- object bana ke use karenge.
+ -> realationships :- customer has a bankA/C :- nobject bana ke use karege.
  -> parentClass ko ham bolte hai superClass
  -> childClass ko ham bote hai subClass
- -> superClass se properties and methods le shakte hai jise ham bolte inherit karna subClass me.
+ -> superClass se properties and methods amle shakte hai jise h bolte inherit karna subClass me.
  -> child parent se kuch bhi le shkta hai.
  -> extends se ham apni parent class ki properties and methods extend kar rhae hai matalab unhe
   ham apne existing class ke andar access kar pa rahe honge inherit kar rhae hai.
 -> parent me kuch private to child usko access nhai kar payega access karne ke liye hame phele
 parent ke andar uska setter method bana na padega to uske basis pe ham apne child class
 me access kar pa rhae honge.
--> protected ye kheta hai ki me hu to pura defaut ke jaise par me access mere baccho ko
+-> protected ye kheta hai ki me hu to pura default ke jaise par me access mere baccho ko
 bhi dedo matalb meri access child class ko bhi dedo bhale wo dusre package me kyu na ho.
+-> har child class ko apne parent ke contructor ko call karna complsry hai .
 <------------------ Types of inheritance ---------------------------------->
 parent class - vehicle , child class - two wheeler
 1) simple level inheritance :- vehicle and two wheeler one parent and on child
@@ -125,3 +126,29 @@ lekin apne parent class ke pass to hoga hi kyu ki wo to kisi ko extend nhai kar 
 isliye ham isko kabhi bhi use kar shakte hai.
 -> override ka matlab hai ki mujhe pata hai ki parent me hai wo already agar mujhe fhirse
 redefine karna ho to me @override lhik kar shakta hu.
+
+9. Equals and Hash Code
+-> Equals ki madat se ham string ko to comapre kar hi shakte hai par objects ko bhi
+ham equals ki madat se compare kar shake
+-> Hash Code ek maths ka formula hai jo hamri objects ki value ko final number me convert
+kardeta hai
+-> jab tak object me change na ho to tab tak mera hash code same aayega;
+-> different ke liye hashcode same aa shakta hai lekin same nhai differnet hash code
+nhai aeyaga
+-> agar me dko object ko comapare kar raha hu to dono hashcode same aana chaiye tabhi
+wo equal karke tre dega nhai to false dega.
+-> ek formula ke base pe ek integer hashCode generate karta hai.
+
+10.Nested and Inner Classes
+car - parent class and tire child class
+-> agar ham logo ne ek class ke andar dusri class define kari hai to usko bolenge nested
+class
+-> agar hame chae to nested wali class ko private bhi kar shakte hai .
+-> nested wale me koina sa bhi access modifier laga shakte hai as per use.
+-> hamne andar wali class ko static bana diya to wo apne parent class ko bhul jayega
+-> agar hamne tire ko non-static banaya hai to wo car ke object ke shaat associate hoga.
+-> agar hamne tire ko static banaya hai to wo car class ke shat associated hai
+-> nested class ko ham inner class bhi bolte hai.
+-> agar mera inner class static hai to me outer class se sirf static chizo ko hi
+access kar paunga
+-> local inner class ka matab hai ki method ke andar class bana na.
