@@ -85,4 +85,8 @@ collections ye ek Utility class jo hamare bhot sare kaam karne me help karega
 
 9. Enums
 -> ye ek set hai constant chizo ka
--> jake
+-> jake notes me dhek
+
+10.Generics & Diamond Operators
+-> isse ham fast and reusable code lhik shakte hai generics of diamond operator ki madat se ham
+<String> (ise hi bolte hai generics) iske andar type lhik te hai <> (Diamond Operator)
