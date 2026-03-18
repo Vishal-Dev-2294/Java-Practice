@@ -27,7 +27,7 @@ isliye hamko ek parameter pass kardena ka and piche multiple argss lhik dene ka 
 2. Wrapper Classes & Autoboxing
 -> notes me acche se shamj aayega dhek jake
 -> wrapper classs ka matlab ka hai ki ham chaye to primiive data type ka object bhi bana shakte hai
--> wrapper class ko ham isiliye shik rhae hai kyu ki collection me ham diect primitive data type ko
+-> wrapper class ko ham isiliye shik rhae hai kyu ki collection me ham direct primitive data type ko
 use nhai kar shakte hai collection me ham sirf object use kar shakte hai.
 -> notes me dhek le jake baki ka
 
@@ -35,21 +35,21 @@ use nhai kar shakte hai collection me ham sirf object use kar shakte hai.
 -> Do type ka collections library hote hai
 1) collecton :- iske bhot sare childs hai
 2) map :- iske bhi bhot sare childs hai
--> ye dono hi collect library ka part hai
+-> ye dono hi collection library ka part hai
 -> notes ke andar jo pille color me lhika hai usko ham interface class hai and green wale inki implemention
 hai
 -> collection word ka matlab hai ki similar type of elements ko ek chiz me rhkna jise ham bolta hai
 collection
 -> collection wo hai jo add , remove , clear adn size ye shab kuch kar shakta hai and size bata shakta
 hai usse ham bolenge collection
--> list bola ta hai ki me kuch method dunga or collection mera parent hai to uske properties
+-> list bol ta hai ki me kuch method dunga or collection mera parent hai to uske properties
 to mere pass hogi hi so tu agar mere methods + collection ki properties ka use karta hai to tu
 list use kar raha hai
 -> list ek order collection me hota hai and wo duplicate items bhi contain kar shak ta hai
 -> set ek collection bass ye duplicate elements ko nhai rahk ta apne pass ye ek unique element
 mangta hai
 -> for exampe:- agar set hai ek apple hai to dusra apple nhai aa shakta hai.
--> Queue bhi ek collectio ka hisssa hai jo hi elements ko hold karta hai in fifo(first in first out)
+-> Queue bhi ek collection ka hisssa hai jo hi elements ko hold karta hai in fifo(first in first out)
 -> map ek true collection nhai hai part hai collection framework ka or ye key value ke pair me
 chize store karta hai with unique key value same hoto chalega but key ka name alag alag chaiye
 
@@ -76,5 +76,17 @@ index se value nhai nikal shakte hai
 7. Collections Class
 -> collection or collections me diffrence hai ki collection ek interface tha jo top pe rheta tha and
 collections ye ek Utility class jo hamare bhot sare kaam karne me help karega
-->
 
+8. Map Interface
+-> ye data ko store karta hai in key value pair
+-> isme hamko har key unqiue dalni padti hai
+-> har key ka name alag hona chaiye chaye value same ho.
+-> ye ek part hai collection framework ka but ye extened nhai karta collection interface ko
+
+9. Enums
+-> ye ek set hai constant chizo ka
+-> jake notes me dhek
+
+10.Generics & Diamond Operators
+-> isse ham fast and reusable code lhik shakte hai generics of diamond operator ki madat se ham
+<String> (ise hi bolte hai generics) iske andar type lhik te hai <> (Diamond Operator)
