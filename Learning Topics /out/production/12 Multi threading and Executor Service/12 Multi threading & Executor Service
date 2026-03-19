@@ -44,6 +44,12 @@ ko karna
 matlab 4 cors use ho rhae hai 1core(main thread) 2core(t1.start) 3core(t2.start)
 4core(t3.start) to ye shab ek shaat chal rhae hai jiska kaam jab pura hojaye tab wo band
 ho jayega automatic
+-> har thread ki speed alag alag hoti hai iska matlab jarruri nhai hai ki agar firstTask
+complete hoto phele whai khatam ho nhai secondTask bhi phele khatam ho shakta hai isliye
+har htread ki speed alag alag hoti hai
+
+-> thread ke bhot sare methods hai jisli madat se ham cordination karshakte hai between
+threads
 
 --------aditonal gyan -----------
 -> thread ka direct realation apne cpu(central processing unit) iska kam apne sari chizo
@@ -56,3 +62,45 @@ chalegi and process hogi ab bhaut sare core aate hai ek cpu me core ki madat se 
 hoti hai jaise ki code lhikna and gana sunna code ek core use kar raha hai and gana ek core
 use kar raha hai abhi to apple me 128 core aate hai isiliye apple fast hai and fata fat
 execute karta hai chizo ko .
+
+2. Creating a Thread
+-> extending thread class me jo bhi lhika hai hamne wo shab thread hai wo shab ek shaat chal rhae hai
+matlab 4 cors use ho rhae hai 1core(main thread) 2core(t1.start) 3core(t2.start)
+4core(t3.start) to ye shab ek shaat chal rhae hai jiska kaam jab pura hojaye tab wo band
+ho jayega automatic
+-> har thread ki speed alag alag hoti hai iska matlab jarruri nhai hai ki agar firstTask
+complete hoto phele whai khatam ho nhai secondTask bhi phele khatam ho shakta hai isliye
+har htread ki speed alag alag hoti hai
+
+-> thread ke bhot sare methods hai jiski madat se ham cordination karshakte hai between
+threads ki netflix me picture downalod khatam hone ke baad hi notification aaye ki download
+complete nhai phele
+-> jake notes dhek creating thread wala tujhe shamj aajayega
+
+--> implements runnable ye ham log tab use karte hai jab ek class ke do child ho same
+to ham thread na lhik ke runnable lhik te hai isko start karne ke liye thread ka object
+bana ke apne class ke instance(variable) ko pass karna padta hai start() method ka use karna padta
+hai ye dusra tareeka hai thread use karne ka
+-> phela tareeka apne aap ko thread bana lo
+-> dusra tareeka implements runnable and inside the teastingRunnables create one object with
+Thread to excute the runnable threads
+
+3. States of a Thread
+-> ye notes me hai diagram ke shaat
+
+4. Thread Priority
+-> iska use hai ki konsi thread ko phele chala hai or konsi thread ko baad matalab
+ye Priority decide karta hai kiski maximum Priority hai or kiski minimum priority hai
+-> mainly Priority ke 10 level hote hai 1 shabse kam priority 10 shabse jyada Priority
+ham jo thread chala te hai wo 5 we level pe chal ta hai byDefault 5we level pe chalta
+hai apna thread agar ham thred priority define na kare to .
+-> priority ham apne operating system ko bata rhae hai ki ye highest priority hai and
+ye lowest priority hai depend abhi bhi OS pe hi kar raha hai ki wo kosa chalayega
+bas hamne ye bata diya hai ki kis ki kitni priority hai.
+-> ye order of execution ko follow nhai karta jarruri nhai hai ki max wala phele hi chale
+-> jab bhot bhid ho tab PRIORITY set karne ka matlab pata chalega  bhot jyada threads honge
+tab PRIORITY set karne ka pata chalega
+-> notes diagram ke shaat bataya gya hai dhek le
+
+5. Join Method
+->

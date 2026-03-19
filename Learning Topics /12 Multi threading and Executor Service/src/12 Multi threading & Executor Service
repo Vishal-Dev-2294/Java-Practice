@@ -76,3 +76,37 @@ har htread ki speed alag alag hoti hai
 threads ki netflix me picture downalod khatam hone ke baad hi notification aaye ki download
 complete nhai phele
 -> jake notes dhek creating thread wala tujhe shamj aajayega
+
+--> implements runnable ye ham log tab use karte hai jab ek class ke do child ho same
+to ham thread na lhik ke runnable lhik te hai isko start karne ke liye thread ka object
+bana ke apne class ke instance(variable) ko pass karna padta hai start() method ka use karna padta
+hai ye dusra tareeka hai thread use karne ka
+-> phela tareeka apne aap ko thread bana lo
+-> dusra tareeka implements runnable and inside the teastingRunnables create one object with
+Thread to excute the runnable threads
+
+3. States of a Thread
+-> ye notes me hai diagram ke shaat
+
+4. Thread Priority
+-> iska use hai ki konsi thread ko phele chala hai or konsi thread ko baad matalab
+ye Priority decide karta hai kiski maximum Priority hai or kiski minimum priority hai
+-> mainly Priority ke 10 level hote hai 1 shabse kam priority 10 shabse jyada Priority
+ham jo thread chala te hai wo 5 we level pe chal ta hai byDefault 5we level pe chalta
+hai apna thread agar ham thred priority define na kare to .
+-> priority ham apne operating system ko bata rhae hai ki ye highest priority hai and
+ye lowest priority hai depend abhi bhi OS pe hi kar raha hai ki wo kosa chalayega
+bas hamne ye bata diya hai ki kis ki kitni priority hai.
+-> ye order of execution ko follow nhai karta jarruri nhai hai ki max wala phele hi chale
+-> jab bhot bhid ho tab PRIORITY set karne ka matlab pata chalega  bhot jyada threads honge
+tab PRIORITY set karne ka pata chalega
+-> notes diagram ke shaat bataya gya hai dhek le
+
+5. Join Method
+-> jo bhi thread ke uppar join method laga denge uska baaad wala thread wait karega
+join wala thread complete hone ka
+-> jaise hi join methoda wala thread complete hoj jayega suke baad wala thread tabhi
+chalega
+-> jaha bhi join method lhika hai hamne wha pe main thread ruk jayega and jab tak join method
+wala thread complete nhai hoga tab tak uske aage wala thread nhai chalega join method
+jaise hi complete hojayega tabhi main thread aage wale ko chala yega

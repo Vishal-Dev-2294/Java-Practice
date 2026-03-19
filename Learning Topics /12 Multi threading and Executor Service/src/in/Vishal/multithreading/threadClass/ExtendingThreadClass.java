@@ -1,4 +1,4 @@
-package in.Vishal.multithreading;
+package in.Vishal.multithreading.threadClass;
 
 public class ExtendingThreadClass {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package in.Vishal.multithreading;
+package in.Vishal.multithreading.threadClass;
 
 public class FirstTask extends Thread{
     @Override
