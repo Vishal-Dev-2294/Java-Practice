@@ -110,3 +110,12 @@ chalega
 -> jaha bhi join method lhika hai hamne wha pe main thread ruk jayega and jab tak join method
 wala thread complete nhai hoga tab tak uske aage wala thread nhai chalega join method
 jaise hi complete hojayega tabhi main thread aage wale ko chala yega
+
+6. Synchronize keyword
+-> mutual excusion ka matlab hai ki ek time pe ek hi thread chale example dhekne ke liye
+7:38min par 3 wale video pe chale ja
+-> ye topic jake notes me dhek le shamj aajaeyga manta hu ki tujhe kantala aa raha hai
+revise karne me fhirr mann marke dhek le or kya
+
+7. Thread Communication
+->notes me dhek le bhai
