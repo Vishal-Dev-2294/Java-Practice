@@ -1,7 +1,10 @@
 package in.Vishal.multithreading;
 
 public class NeedOfMultiThreading {
-    public static void main(String[] args) {
+    public static void main(String[] args) { // mian thread hai ye
+
+        long startTime = System.currentTimeMillis();
+
         //First Task
         for (int i = 1; i <= 500; i++) {
             System.out.printf("%d* " , i);
@@ -22,5 +25,8 @@ public class NeedOfMultiThreading {
         }
 
         System.out.println("\n # completed");
+
+        long endTime = System.currentTimeMillis();
+        System.out.printf("Total time taken : %d " , (endTime - startTime) );
     }
 }

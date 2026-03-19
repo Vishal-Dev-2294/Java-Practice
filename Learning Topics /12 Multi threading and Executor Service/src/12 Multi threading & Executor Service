@@ -40,6 +40,17 @@ ek thread de deta hu user chae to picture bhi dhek shak ta hai with downloading 
 sariiiii chiiiiz ko hammmm boolte hai multi threading ek shaat bahut sari chizoo
 ko karna
 
+-> extending thread class me jo bhi lhika hai hamne wo shab thread hai wo shab ek shaat chal rhae hai
+matlab 4 cors use ho rhae hai 1core(main thread) 2core(t1.start) 3core(t2.start)
+4core(t3.start) to ye shab ek shaat chal rhae hai jiska kaam jab pura hojaye tab wo band
+ho jayega automatic
+-> har thread ki speed alag alag hoti hai iska matlab jarruri nhai hai ki agar firstTask
+complete hoto phele whai khatam ho nhai secondTask bhi phele khatam ho shakta hai isliye
+har htread ki speed alag alag hoti hai
+
+-> thread ke bhot sare methods hai jisli madat se ham cordination karshakte hai between
+threads
+
 --------aditonal gyan -----------
 -> thread ka direct realation apne cpu(central processing unit) iska kam apne sari chizo
 ko porcess karne ka hota hai ye process karta hai microporesser(8085 , 8085) ki madat se
@@ -51,3 +62,17 @@ chalegi and process hogi ab bhaut sare core aate hai ek cpu me core ki madat se 
 hoti hai jaise ki code lhikna and gana sunna code ek core use kar raha hai and gana ek core
 use kar raha hai abhi to apple me 128 core aate hai isiliye apple fast hai and fata fat
 execute karta hai chizo ko .
+
+2. Creating a Thread
+-> extending thread class me jo bhi lhika hai hamne wo shab thread hai wo shab ek shaat chal rhae hai
+matlab 4 cors use ho rhae hai 1core(main thread) 2core(t1.start) 3core(t2.start)
+4core(t3.start) to ye shab ek shaat chal rhae hai jiska kaam jab pura hojaye tab wo band
+ho jayega automatic
+-> har thread ki speed alag alag hoti hai iska matlab jarruri nhai hai ki agar firstTask
+complete hoto phele whai khatam ho nhai secondTask bhi phele khatam ho shakta hai isliye
+har htread ki speed alag alag hoti hai
+
+-> thread ke bhot sare methods hai jiski madat se ham cordination karshakte hai between
+threads ki netflix me picture downalod khatam hone ke baad hi notification aaye ki download
+complete nhai phele
+-> jake notes dhek creating thread wala tujhe shamj aajayega

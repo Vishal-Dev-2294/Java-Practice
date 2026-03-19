@@ -1,0 +1,13 @@
+package in.Vishal.multithreading;
+
+public class FirstTask extends Thread{
+    @Override
+    public void run() {
+        //First Task
+        for (int i = 1; i <= 500; i++) {
+            System.out.printf("%d* " , i);
+        }
+
+        System.out.printf("\n %s * completed",Thread.currentThread());
+    }
+}
