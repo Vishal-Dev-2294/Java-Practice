@@ -1,0 +1,44 @@
+-------------------> this all are very very important topics <---------------------------->
+
+1. What is Functional Programming
+2. Lambda Expression
+3. What is a Stream
+4. Filtering & Reducing
+5. Functional Interfaces
+6. Method References
+7. Functional vs Structural Programming
+8. Optional Class
+9. Intermediate vs Terminal Operations
+10.Max, Min, Collect to List
+11.Sort, Distinct, Map
+
+<-----------------------------Explaination-------------------------------------------->
+
+1. What is Functional Programming
+-> notes me dhek le
+
+2. Lambda Expression
+-> jo apne chote mote function hote hai usse agar hame short me lhikna hai to lambda
+expression use hoga
+-> baki notes me bhaut acche diya hia dhek le
+
+3. What is a Stream
+-> stream ka matalb hota hai bhena jaise riven bheta hai bina ruke aise hi apna
+stream kaam karta rheta hai jab tak use input milta jaye
+-> notes me bhaut acche se diya hai dhek le
+
+4. Filtering & Reducing
+-> ye dono ko use karne se pehele hame collection ko stream me phele convert karna padta
+hai
+-> reduce reduce kardega streams ke elements ko wo ke single value me
+-> baki ka shab notes me hai dhekle
+-> reduce hamse ek inital number leta hai and ek method leta hai
+
+
+
+
+
+
+
+
+

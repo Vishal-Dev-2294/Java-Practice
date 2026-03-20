@@ -44,7 +44,17 @@ ko karna
 matlab 4 cors use ho rhae hai 1core(main thread) 2core(t1.start) 3core(t2.start)
 4core(t3.start) to ye shab ek shaat chal rhae hai jiska kaam jab pura hojaye tab wo band
 ho jayega automatic
--> har thread ki speed alag alag hoti hai iska matlab jarruri nhai hai ki agar firstTask
+-> har thread ki speed 1. What is Functional Programming
+2. Lambda Expression
+3. What is a Stream
+4. Filtering & Reducing
+5. Functional Interfaces
+6. Method References
+7. Functional vs Structural Programming
+8. Optional Class
+9. Intermediate vs Terminal Operations
+10.Max, Min, Collect to List
+11.Sort, Distinct, Mapalag alag hoti hai iska matlab jarruri nhai hai ki agar firstTask
 complete hoto phele whai khatam ho nhai secondTask bhi phele khatam ho shakta hai isliye
 har htread ki speed alag alag hoti hai
 
