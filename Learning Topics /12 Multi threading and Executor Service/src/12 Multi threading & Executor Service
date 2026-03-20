@@ -119,3 +119,30 @@ revise karne me fhirr mann marke dhek le or kya
 
 7. Thread Communication
 ->notes me dhek le bhai
+
+8. Intro to Executor Service
+-> multithreading wali api ko ham bolte hai concurrency api
+-> Executor service isliye aaya hai ki apna OS jo hai wo bolta tha ki aap thread banao
+or chalaunga or marunga bar bar wo chala ta tha or mar ta tha to isme jyad mhenat
+lag raha tha to isko solve karne aaya apna
+--> Executor sevice apna thread pool banata hai jha pe wo apne thread ka group rhak
+ta hai jise ham pool bhi khete hai executor service nazar rhak ta hai ki konsa thread
+khali bheta hai or konsa kaam kar rha hai
+-> jitne thread ka ham pool bana ke rhakenge wo kabhi bhi marenge nahi bhale hi khali
+bhete rhaenge but marenge nhai
+-> jab bhi ham Executor service ko koi task(kaam) dete hai to wo task queue ke andar
+rhak tha hai and wait karta hai ki kab mera thread pool me se koi bhi thread khali hoga
+and me apne task queue me se first task uss thread ko dedu or wo thread mera
+task run karde QUEUE (first in first out)
+-> application wala apne code hai implements runnable wale code task queue ko de dega
+and task queue hai wo code thread pool ke khali wale thread ko dedega
+->Executor service banate shamy ham usko abata denge ki kitne thread ke shaat bana na hai
+and bass usko task dete rhaenge and thread pool chala ta rhaega
+
+9. Multiple Threads with Executor
+-> TestingMultipleThreadExecutor iswali file me dhek shamj aajayega
+
+10.Returning Futures
+-> agar ham log apne thread se chahte hai ki wo hame kuch wapise lake de jise ham return
+khete hai agar thread hame kuch lake deta hai use ham bolte returing feature ki
+madat se wo lake wapis kuch bhi de shakta hai
