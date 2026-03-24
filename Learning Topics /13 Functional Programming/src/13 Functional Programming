@@ -54,3 +54,10 @@ sirf declare karte hai kaise karna hai
 se kisi ne bhi null return kardiya
 -> optional ka matlab hai ki method me agar list hogi to wo list return karega nhai to
 else me empty list return karega lekin dega to final result hi
+
+9. Intermediate vs Terminal Operations
+-> Intermediate matlab .filter wala pani and .map wala flavour
+-> Terminal Operations iska matlab hai chakli diagram wali jo inko khatam kar rhai hai
+-> jaise hi hamne Terminal Operations lagaya tabhi hi puri chaning khatam hojayegi
+-> Terminal Operations are Max , Min , Collect to List
+-> Intermediate Operations are Sort , Distinct , Map
