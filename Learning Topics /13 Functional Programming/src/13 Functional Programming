@@ -37,3 +37,8 @@ hai
 5. Functional Interfaces
 -> ye jake notes me dekle
 
+6. Method References
+-> jo bhi code ke niche yellow yellow aata hai usko ham bolte hai method reference
+-> aise method jo ki ek chiz le raha hai or ek chiz return kar raha hai to usme ham
+method reference ko pass kar shakte hai
+
