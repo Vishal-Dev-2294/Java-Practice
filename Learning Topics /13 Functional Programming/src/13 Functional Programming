@@ -50,4 +50,7 @@ sirf declare karte hai kaise karna hai
 -> differce dhekne ke liye kripa notes ke taraf bhade
 
 8. Optional Class
-->
+-> methods chaining hoti hai bade projects me for example:- .filter , .reduce asie isme
+se kisi ne bhi null return kardiya
+-> optional ka matlab hai ki method me agar list hogi to wo list return karega nhai to
+else me empty list return karega lekin dega to final result hi
