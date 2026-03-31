@@ -98,9 +98,3 @@ configuration lhike hue.
 need for setting up mannual spring application context.
 -> annaotaion ka matlab hai ki ham kuch hint de rhae hai ki wo chiz aisi hai or wo chiz waisi hai
 -> we no longer need to explicitly create an application context using AnnotaionConfigApplication as spring
-boot handles that behind the scenes.
--> We use SpringApplication.run() to start the application, and Spring Boot takes care of configuring the
-embedded web server and other necessary components.
--> The @SpringBootApplication annotaion alone brings in a lot of pre-configured features, including
-| automatic component scanning | and | embedded server configuration | which would have required  more steps
-in traditional spring setup.
