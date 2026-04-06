@@ -97,4 +97,4 @@ configuration lhike hue.
 -> we use the @(SpringBootApplication) annotaion on the main class. this single annotation replaces the
 need for setting up mannual spring application context.
 -> annaotaion ka matlab hai ki ham kuch hint de rhae hai ki wo chiz aisi hai or wo chiz waisi hai
--> we no longer
+-> we no
